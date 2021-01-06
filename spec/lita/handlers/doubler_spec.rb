@@ -1,9 +1,6 @@
 require 'spec_helper'
 
 describe Lita::Handlers::Doubler, lita_handler: true do
-  let(:robot) { Lita::Robot.new(registry) }
-
-  subject { described_class.new(robot) }
 
   describe 'routing' do
     # allow extra whitespace
@@ -17,8 +14,7 @@ describe Lita::Handlers::Doubler, lita_handler: true do
     it { is_expected.to_not route('Lita double 1e4') }
   end
 
-  describe 'functionality' do
-    describe ':double_number' do
+  describe ':double_number' do
       let(:n) { rand(1..100) }
 
       it 'returns double the input' do
@@ -29,9 +25,10 @@ describe Lita::Handlers::Doubler, lita_handler: true do
       end
     end
 
-    it 'doubles numbers when asked to' do
-      send_message 'Lita double 2'
-      expect(replies.last).to eq('2 + 2 = 4')
+    describe 'respond_with_double' do
+      it 'doubles numbers when asked to' do
+        send_message('Lita double 2')
+        expect(replies.last).to eq("2 + 2 = 4")
+      end
     end
-  end
 end

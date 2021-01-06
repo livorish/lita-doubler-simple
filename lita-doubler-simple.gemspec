@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "lita-doubler-but-with-a-unique-name"
-  spec.version       = "0.1.0"
+  spec.name          = "lita-doubler-simple"
+  spec.version       = "0.1.1"
   spec.authors       = ["Oxana Nefedova"]
   spec.email         = ["hoksini@gmail.com"]
   spec.description   = "Doubles numbers - simple demo skill"
   spec.summary       = "Doubles numbers - simple demo skill"
-  spec.homepage      = "https://github.com/dpritchett/lita-doubler"
+  spec.homepage      = "https://github.com/livorish/lita-doubler-simple"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 

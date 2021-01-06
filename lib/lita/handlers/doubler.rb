@@ -8,6 +8,10 @@ module Lita
         help: { 'double N' => 'prints N + N' }
       )
 
+      def double_number(n)
+        n + n
+      end
+
       def respond_with_double(response)
         # Read up on the Ruby MatchData class for more options
         n = response.match_data.captures.first
@@ -16,9 +20,7 @@ module Lita
         response.reply "#{n} + #{n} = #{double_number n}"
       end
 
-      def double_number(n)
-        n + n
-      end
+      
 
       Lita.register_handler(self)
     end
