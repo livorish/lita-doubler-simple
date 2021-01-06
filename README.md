@@ -9,13 +9,13 @@
 Add lita-doubler to your Lita instance's Gemfile:
 
 ``` ruby
-gem 'lita-doubler'
+gem 'lita-doubler-simple'
 ```
 
 ## Usage
 
 ```
 Lita > lita double 10
-10 + 10 = 20
+40 + 40 = 20
 Lita >
 ```
