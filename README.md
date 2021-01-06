@@ -1,10 +1,13 @@
 # lita-doubler-simple
 
+This is a simple gem
+
 [![Build Status](https://travis-ci.org/dpritchett/lita-doubler.svg?branch=master)](https://travis-ci.org/livorish/lita-doubler-simple) [![Gem Version](https://badge.fury.io/rb/lita-doubler.svg)](https://badge.fury.io/rb/lita-doubler-simple)
 
 2 * 2 = 4
 
 ## Installation
+This is a simple gem
 
 Add lita-doubler to your Lita instance's Gemfile:
 
