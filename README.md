@@ -1,6 +1,6 @@
-# lita-doubler
+# lita-doubler-simple
 
-[![Build Status](https://travis-ci.org/dpritchett/lita-doubler.svg?branch=master)](https://travis-ci.org/dpritchett/lita-doubler) [![Gem Version](https://badge.fury.io/rb/lita-doubler.svg)](https://badge.fury.io/rb/lita-doubler)
+[![Build Status](https://travis-ci.org/dpritchett/lita-doubler.svg?branch=master)](https://travis-ci.org/livorish/lita-doubler-simple) [![Gem Version](https://badge.fury.io/rb/lita-doubler.svg)](https://badge.fury.io/rb/lita-doubler-simple)
 
 2 * 2 = 4
 
@@ -15,7 +15,7 @@ gem 'lita-doubler-simple'
 ## Usage
 
 ```
-Lita > lita double 10
-40 + 40 = 20
+Lita > lita double 40
+40 + 40 = 80
 Lita >
 ```
